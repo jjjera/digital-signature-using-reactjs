@@ -93,7 +93,7 @@ export default class SignatureCanvas extends Component {
     let {canvasProps} = this.props
     return(
       <div>
-      <canvas ref={(ref) => { this._canvas = ref }} {...canvasProps} />
+      <canvas ref={(ref) => { this._canvas = ref }} {...canvasProps} style={{backgroundColor:'lightblue'}}/>
       </div>
     );
   }
